@@ -1,0 +1,11 @@
+{
+  "$ignoreUnknownInstances": true,
+
+    "className":"Tool",
+    "properties":{
+        "Name":"BildTool",
+        "ToolTip": "BildTool",
+        "Enabled": true,
+        "RequiresHandle": false
+    }
+}
