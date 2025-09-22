@@ -45,16 +45,7 @@ end
 inventoryEvent.OnServerEvent:Connect(function(player, action, itemName)
     if action == "selectItem" then
         if hasItem(player, itemName) then
-            -- Отправляем все три параметра: itemName, count, maxCount
-            local maxCount = 50 -- или ваше значение по умолчанию для этого предмета
-            if itemName == "Wood" then maxCount = 100
-            elseif itemName == "Glass" then maxCount = 20
-            elseif itemName == "Metal" then maxCount = 10
-            elseif itemName == "Brick" then maxCount = 30
-            elseif itemName == "Gold" then maxCount = 5
-            end
-            
-            inventoryEvent:FireClient(player, "itemSelected", itemName, playerData[player][itemName], maxCount)
+            inventoryEvent:FireClient(player, "itemSelected", itemName, playerData[player][itemName])
         else
             inventoryEvent:FireClient(player, "error", "Недостаточно " .. itemName)
         end

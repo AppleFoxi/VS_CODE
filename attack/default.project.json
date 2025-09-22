@@ -1,0 +1,90 @@
+{
+  "name": "VS_CODE",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+        "$path": "src/replicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "$className":"ServerScriptService",
+        "$path": "src/serverScriptService"
+
+    },
+    "StarterPlayer": {
+      "$className":"StarterPlayer",
+      "StarterCharacterScripts":{
+        "$ignoreUnknownInstances": true,
+        "$className":"StarterCharacterScripts",
+        "$path":"src/StarterPlayer/StarterCharacterScripts"
+      },
+      "StarterPlayerScripts":{
+        "$ignoreUnknownInstances": true,
+        "$className":"StarterPlayerScripts",
+        "$path":"src/StarterPlayer/StarterPlayerScripts"
+      }
+    },
+    
+    "StarterPack":{
+      "$ignoreUnknownInstances": true,
+      "$className":"StarterPack",
+      "$path":"src/StarterPack"
+      
+    },
+    "StarterGui":{
+      "$ignoreUnknownInstances": true,
+      "$className":"StarterGui",
+      "$path":"src/StarterGui"
+    },
+    
+
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
