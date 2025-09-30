@@ -1,0 +1,37 @@
+.gitignore Файл для rojo gpt написал
+»
+
+ # Rojo build artifacts
+*.rbxm
+*.rbxmx
+
+# VS Code settings
+.vscode/
+
+# Node modules (если используешь npm для инструментов)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Roblox Studio temp files
+*.log
+*.tmp
+
+# Compiled output (если используешь tools вроде selene, stylua и т.п.)
+out/
+build/
+dist/
+
+# Luau type checking cache
+luau-types/
+
+# Roblox-TS (если используешь TypeScript)
+tsconfig.json
+*.d.ts
+*.js
+*.map
+
+# Rojo default output file
+place.rbxl

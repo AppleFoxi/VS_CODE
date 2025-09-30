@@ -1,0 +1,67 @@
+{
+  "name": "VS_CODE",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+        "$path": "src/replicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "$className":"ServerScriptService",
+        "$path": "src/ServerScriptService"
+
+    },
+    "StarterPlayer": {
+      "$className":"StarterPlayer",
+      "StarterCharacterScripts":{
+        "$ignoreUnknownInstances": true,
+        "$className":"StarterCharacterScripts",
+        "$path":"src/StarterPlayer/StarterCharacterScripts"
+      },
+      "StarterPlayerScripts":{
+        "$ignoreUnknownInstances": true,
+        "$className":"StarterPlayerScripts",
+        "$path":"src/StarterPlayer/StarterPlayerScripts"
+      }
+    },
+    
+    "StarterPack":{
+      "$ignoreUnknownInstances": true,
+      "$className": "StarterPack",
+          "$path":"src/StarterPack"
+    },
+    "StarterGui":{
+      "$ignoreUnknownInstances": true,
+      "$className":"StarterGui",
+      "$path":"src/StarterGui"
+    },
+    
+
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }   
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
